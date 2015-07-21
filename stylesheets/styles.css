@@ -253,3 +253,28 @@ footer {
     color:#444;
   }
 }
+.svg-container {
+  text-align: center
+}
+svg {
+  margin: auto
+}
+line, circle {
+  fill: none;
+  stroke: #B2B3B3;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 4;
+}
+path, .cog_inner_path {
+  fill: none;
+  /*stroke: #4F92B8;*/
+  stroke: #007EE5;
+  stroke-width: 4;
+  stroke-dasharray: 0;
+}
+svg {
+  width: 50%;
+  margin: auto;
+}
+
